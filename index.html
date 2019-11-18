@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SMADER</title>
+  
+  <!-- Bagian Bootstrap CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+
+  <!-- Style bawaan dari css yang teelah dibuat -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Bilah -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">SMADER </div>
+      
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">DASHBOARD</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">DATA KODE</a>
+        <a href="/home/pi/Documents/smader/pasien.html" class="list-group-item list-group-item-action bg-light">DATA PASIEN</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">DATA DOKTER</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">DATA PERAWAT</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">HELP</a>
+      </div>
+    </div>
+    <!-- /#sisi bilah-potongan -->
+
+    <!-- isi halaman -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="localhost">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tambahan 
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Tanggap Darurat</a>
+                <a class="dropdown-item" href="#">Aksi Cegah</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Sesuatu yang diperlukan</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<center>
+      <div class="container-fluid">
+        <h1 class="mt-4">SMADER(Smart Patient movement detector)</h1>
+        <p>smader merupakan piranti cerdas yang dibuat untuk mengefisienkan pekerjaan perawat dalam melayani kebutuhan pasien
+      </div>
+      <img src="https://yt3.ggpht.com/a-/AAuE7mAERpWEVQDGKhd23vTUv_XL5q6_jr8s5YcuyA=s900-mo-c-c0xffffffff-rj-k-no" alt="Gambar" width="30%" height="345">
+      </center>
+    </div>
+    <!-- /#isi halaman -->
+
+  </div>
+  <!-- /#penampil -->
+
+  <!-- Bootstrap disini -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu animasi -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+  <body>
+  <center>
+  <section id="footer" class="section footer">
+    <div class="container">
+
+      <div class="row align-center copyright">
+        <div class="col-sm-12">
+          <p>&copy; SMADER( SMART PATIENT MOVEMENT DETECTOR )</p>
+          <div class="credits">
+            <!--dipersembahkan oleh tim urotera institut teknologi sumatera-->
+            Dibuat oleh <a href="#">UROTERA TEAM</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </center>
+</body>
+</body>
+</html>
